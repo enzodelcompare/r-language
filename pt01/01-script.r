@@ -358,7 +358,7 @@ vetor_x = c(5, 10, 15)
 vetor_y = c("Aa", "Bb", "Cc", "Dd", "Ee")
 c(v1, v2)
 
-# Operações com Vetores
+# Operações com vetores
 x = c(5, 10, 15, 30, 60)
 y = c(120, 240, 480, 960)
 
@@ -368,27 +368,15 @@ x - y
 x * y
 x / y
 
-# Somando vetores com números diferentes de elementos
+# Somando vetores com quantidades diferentes de elementos
 alfa = c(10, 20, 30)
 beta = c(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
 gama = alfa + beta
 gama
 
-# Vetor Nomeado
+# Vetor nomeado
 vetor_nomeado = c("Sol", "Mercúrio", "Vênus", "Terra", "Marte", "Júpiter", "Saturno", "Urano", "Netuno")
 vetor_nomeado
 names(vetor_nomeado) = c("Sistema Solar")
 vetor_nomeado
 vetor_nomeado["Sist. Solar"]
-
-# ========== # ========== # ========== # ========== # ========== #
-
-# Configurando o diretório de trabalho
-setwd("C:\r-language\pt01")
-getwd()
-
-# ========== # ========== # ========== # ========== # ========== #
-
-# Configurando o diretório de trabalho
-setwd("C:\r-language\pt01")
-getwd()
