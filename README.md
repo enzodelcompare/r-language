@@ -1,5 +1,7 @@
 # Linguagem R 📓
 
+<img src="imagens/Rlogo.png" align="right">
+
 Com esse repositório, irei demostrar a construção do meu conhecimento na **Linguagem R**
 
 <br>
