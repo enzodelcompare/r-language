@@ -34,7 +34,7 @@ Com esse repositório, irei demostrar a construção do meu conhecimento na **Li
 
 **LISTA DE EXERCÍCIOS**: [**Lista de Exercícios - Parte II: Fatores, Estruturas de Controle e Funções**](#)
 
-**LISTA DE EXERCÍCIOS**: [**Lista de Exercícios - Parte II: Fatores, Estruturas de Controle e Funções**](#)
+**LISTA DE EXERCÍCIOS [RESOLVIDOS]**: [**Lista de Exercícios - Parte II: Fatores, Estruturas de Controle e Funções [RESOLVIDOS]**](#)
 
 <br>
 
