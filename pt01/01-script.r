@@ -356,11 +356,11 @@ b[3]
 # Combinando vetores
 vetor_x = c(5, 10, 15)
 vetor_y = c("Aa", "Bb", "Cc", "Dd", "Ee")
-c(v1, v2)
+c(vetor_x, vetor_y)
 
 # Operações com vetores
 x = c(5, 10, 15, 30, 60)
-y = c(120, 240, 480, 960)
+y = c(120, 240, 480, 960, 1920)
 
 x * 2
 x + y
@@ -371,12 +371,11 @@ x / y
 # Somando vetores com quantidades diferentes de elementos
 alfa = c(10, 20, 30)
 beta = c(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
-gama = alfa + beta
-gama
+alfa + beta
 
 # Vetor nomeado
 vetor_nomeado = c("Sol", "Mercúrio", "Vênus", "Terra", "Marte", "Júpiter", "Saturno", "Urano", "Netuno")
 vetor_nomeado
-names(vetor_nomeado) = c("Sistema Solar")
+names(vetor_nomeado) = c("1", "2", "3", "4", "5", "6", "7", "8", "9")
 vetor_nomeado
-vetor_nomeado["Sist. Solar"]
+vetor_nomeado["4"]
