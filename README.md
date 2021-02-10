@@ -38,4 +38,4 @@ Com esse repositório, irei demostrar a construção do meu conhecimento na **Li
 
 **LINKEDIN**: [**Enzo Delcompare**](https://www.linkedin.com/in/enzodelcompare/)
 
-[enzodelcompare.github.io](https://enzodelcompare.github.io/)
+**MEU SITE**: [enzodelcompare.github.io](#)
