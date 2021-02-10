@@ -18,7 +18,7 @@ Com esse repositório, irei demostrar a construção do meu conhecimento na **Li
 
 **LISTA DE EXERCÍCIOS**: [**Lista de Exercícios - Parte I: Fundamentos**](https://github.com/enzodelcompare/r-language/blob/master/pt01/lista_exercicios.txt)
 
-**LISTA DE EXERCÍCIOS [RESOLVIDOS]**: [**Lista de Exercícios - Parte I: Fundamentos [RESOLVIDOS]**](#)
+**LISTA DE EXERCÍCIOS [RESOLVIDOS]**: [**Solução**](#)
 
 <br>
 
@@ -34,7 +34,7 @@ Com esse repositório, irei demostrar a construção do meu conhecimento na **Li
 
 **LISTA DE EXERCÍCIOS**: [**Lista de Exercícios - Parte II: Fatores, Estruturas de Controle e Funções**](#)
 
-**LISTA DE EXERCÍCIOS [RESOLVIDOS]**: [**Lista de Exercícios - Parte II: Fatores, Estruturas de Controle e Funções [RESOLVIDOS]**](#)
+**LISTA DE EXERCÍCIOS [RESOLVIDOS]**: [**Solução**](#)
 
 <br>
 
