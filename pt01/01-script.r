@@ -575,24 +575,24 @@ setwd("C:\r-language\pt01")
 getwd()
 
 # String
-texto <- "Isso é uma string!"
-texto
+string <- "Isso é uma string!"
+string
 
-x = as.character(3.14)
-x
-class(x)
+pi = as.character(3.1415926535)
+pi
+class(pi)
 
-# Concatenando Strings
-nome = "Nelson"; sobrenome = "Mandela"
+# Concatenação de strings
+nome = "Erwin"; sobrenome = "Schrödinger"
 paste(nome, sobrenome)
 cat(nome, sobrenome)
 
 # Formatando a saída
-sprintf("A %s é nota %d", "Data Science Academy", 10)
+sprintf("O %s, recebeu o premio NObel de Física em %d", "Erwin Schrödinger", 1933)
 
 # Extraindo parte da string
-texto <- "Isso é uma string!"
-substr(texto, start=12, stop=17)
+string <- "Isso é uma string!"
+substr(string, start=12, stop=17)
 ?substr
 
 # Contando o número de caracteres
