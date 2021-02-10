@@ -28,7 +28,7 @@ Com esse repositório, irei demostrar a construção do meu conhecimento na **Li
 * Funções
 * Expressões Regulares
 
-**SCRIPTS**: [**Scripts - Parte Ii: Fundamentos**](#)
+**SCRIPTS**: [**Scripts - Parte II: Fundamentos**](#)
 
 **LISTA DE EXERCÍCIOS**: [**Lista de Exercícios - Parte II: Fatores, Estruturas de Controle e Funções**](#)
 
