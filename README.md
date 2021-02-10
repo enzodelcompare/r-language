@@ -14,7 +14,7 @@ Com esse repositório, irei demostrar a construção do meu conhecimento na **Li
 * Operações com Strings
 * Operações com DataFrames
 
-**LISTA DE EXERCÍCIOS**: [**Lista de Exercícios - Parte I: Fundamentos**](https://www.linkedin.com/in/enzodelcompare/)
+**LISTA DE EXERCÍCIOS**: [**Lista de Exercícios - Parte I: Fundamentos**](https://github.com/enzodelcompare/r-language/blob/master/pt01/lista_exercicios.txt)
 
 <br>
 
