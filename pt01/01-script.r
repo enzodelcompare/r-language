@@ -387,18 +387,18 @@ setwd("C:\r-language\pt01")
 getwd()
 
 # Quantidade de linhas
-matrix(c(1,2,3,4,5,6), nrow = 2)
-matrix(c(1,2,3,4,5,6), nr = 3)
-matrix(c(1,2,3,4,5,6), nr = 6)
+matrix(c(1, 2, 3, 4, 5, 6), nrow = 2)
+matrix(c(1, 2, 3, 4, 5, 6), nr = 3)
+matrix(c(1, 2, 3, 4, 5, 6), nr = 6)
 
 # Quantidade de colunas
-matrix(c( 1,2,3,4,5,6), ncol = 2)
+matrix(c(1, 2, 3, 4, 5, 6), ncol = 2)
 
 # Pedindo ajuda
 ?matrix
 
 # Matrizes: quantidade de elementos múltiplos da quantidade de linhas
-matrix(c(1,2,3,4,5), nc = 2)
+matrix(c(1, 2, 3, 4, 5), nc = 2)
 
 # Criação de matrizes com vetores e alterando o preenchimento para linha
 dados = c(1:10)
@@ -408,7 +408,7 @@ matrix(data = dados, nrow = 5, ncol = 2, byrow = T)
 matrix(data = dados, nrow = 5, ncol = 2)
 
 # Fatiando matriz
-matriz <- matrix(c(2,3,4,5), nc = 2)
+matriz <- matrix(c(2, 4, 6, 8), nc = 2)
 matriz
 matriz[1,2]
 matriz[2,2]
@@ -424,50 +424,50 @@ vetor = diag(matriz)
 diag(vetor)
 
 # Transposta da matriz
-W <- matrix (c(2,4,8,12 ), nr = 2, ncol = 2)
-W
-t(W)
-U <- t(W)
-U
+x <- matrix(c(2, 4, 6, 8), nr = 2, ncol = 2)
+x
+t(x)
+y <- t(x)
+y
 
-# Obtendo uma matriz inversa
-solve(W)
+# Obtendo inversa da matriz
+solve(x)
 
-# Multiplicação de Matrizes
-mat1 <- matrix(c(2,3,4,5), nr = 2)
-mat1
-mat2 <- matrix(c(6,7,8,9), nr = 2)
-mat2
-mat1 * mat2
-mat1 / mat2
-mat1 + mat2
-mat1 - mat2
+# Operações com matrizes
+matriz_1 <- matrix(c(5, 10, 15, 20), nr = 2)
+matriz_1
+matriz_2 <- matrix(c(2, 2, 2, 2), nr = 2)
+matriz_2
+matriz_1 * matriz_2
+matriz_1 / matriz_2
+matriz_1 + matriz_2
+matriz_1 - matriz_2
 
 # Multiplicando Matriz com Vetor
-x = c(1:4)
-x
-y <- matrix(c(2,3,4,5), nr = 2)
-x * y
+vetor = c(1:4)
+vetor
+matriz <- matrix(c(5, 10, 15, 20), nr = 2)
+vetor * matriz
 
-# Nomeando a Matriz
-mat3 <- matrix(c('Terra', 'Marte', 'Saturno', 'Netuno'), nr = 2)
-mat3
-dimnames(mat3) = (list( c("Linha1", "Linha2"), c("Coluna1", "Coluna2")))
-mat3
+# Nomeando matrizes
+matriz <- matrix(c('Einstein', 'Newton', 'Hawking', 'Planck'), nr = 2)
+matriz
+dimnames(matriz) = (list(c("Linha-01", "Linha-02"), c("Coluna-01", "Coluna-02")))
+matriz
 
-# Identificando linhas e colunas no momento de criação da Matriz
-matrix (c(1,2,3,4), nr = 2, nc = 2, dimnames = list(c("Linha 1", "Linha 2" ), c( "Coluna 1", " Coluna 2")))
+# Nomeando a matriz, no momento da sua criação
+matrix(c(5, 10, 15, 20), nr = 2, nc = 2, dimnames = list(c("Linha-01", "Linha-02" ), c("Coluna-01", " Coluna-02")))
 
-# Combinando Matrizes
-mat4 <- matrix(c(2,3,4,5), nr = 2)
-mat4
-mat5 <- matrix(c(6,7,8,9), nr = 2)
-mat5
-cbind(mat4, mat5)
-rbind(mat4, mat5)
+# Combinando matrizes
+matriz_a <- matrix(c(2,3,4,5), nr = 2)
+matriz_a
+matriz_b <- matrix(c(6,7,8,9), nr = 2)
+matriz_b
+cbind(matriz_a, matriz_b)
+rbind(matriz_a, matriz_b)
 
-# Desconstruindo a Matriz
-c(mat4)
+# Desconstruindo a matriz
+c(matriz_a)
 
 # ========== # ========== # ========== # ========== # ========== #
 
@@ -476,12 +476,12 @@ setwd("C:\r-language\pt01")
 getwd()
 
 # Lista de strings
-lista_caracter1 = list('A', 'B', 'C')
-lista_caracter1
-lista_caracter2 = list(c("A", "A"), 'B', 'C')
-lista_caracter2
-lista_caracter3 = list(matrix(c("A", "A", "A", "A"), nr = 2), 'B', 'C')
-lista_caracter3
+lista_string_1 = list('A', 'B', 'C')
+lista_string_1
+lista_string_2 = list(c("A", "A"), 'B', 'C')
+lista_string_2
+lista_string_3 = list(matrix(c("A", "A", "A", "A"), nr = 2), 'B', 'C')
+lista_string_3
 
 # Lista de números inteiros
 lista_inteiros = list(2, 3, 4)
