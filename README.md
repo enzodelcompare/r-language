@@ -18,6 +18,8 @@ Com esse repositório, irei demostrar a construção do meu conhecimento na **Li
 
 **LISTA DE EXERCÍCIOS**: [**Lista de Exercícios - Parte I: Fundamentos**](https://github.com/enzodelcompare/r-language/blob/master/pt01/lista_exercicios.txt)
 
+**LISTA DE EXERCÍCIOS [RESOLVIDOS]**: [**Lista de Exercícios - Parte I: Fundamentos [RESOLVIDOS]**](#)
+
 <br>
 
 **Parte II: Fatores, Estruturas de Controle e Funções** [**Diretório**: *pt02*]
@@ -29,6 +31,8 @@ Com esse repositório, irei demostrar a construção do meu conhecimento na **Li
 * Expressões Regulares
 
 **SCRIPTS**: [**Scripts - Parte II: Fundamentos**](#)
+
+**LISTA DE EXERCÍCIOS**: [**Lista de Exercícios - Parte II: Fatores, Estruturas de Controle e Funções**](#)
 
 **LISTA DE EXERCÍCIOS**: [**Lista de Exercícios - Parte II: Fatores, Estruturas de Controle e Funções**](#)
 
