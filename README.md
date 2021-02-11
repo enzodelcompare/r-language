@@ -14,6 +14,12 @@ Com esse repositório, irei demostrar a construção do meu conhecimento na **Li
 * Operações com Strings
 * Operações com DataFrames
 
+**SCRIPTS**: [**Scripts - Parte I: Fundamentos**](https://github.com/enzodelcompare/r-language/blob/master/pt01/01-script.r)
+
+**LISTA DE EXERCÍCIOS**: [**Lista de Exercícios - Parte I: Fundamentos**](https://github.com/enzodelcompare/r-language/blob/master/pt01/lista_exercicios.txt)
+
+**LISTA DE EXERCÍCIOS [RESOLVIDOS]**: [**Solução**](#)
+
 <br>
 
 **Parte II: Fatores, Estruturas de Controle e Funções** [**Diretório**: *pt02*]
@@ -24,10 +30,16 @@ Com esse repositório, irei demostrar a construção do meu conhecimento na **Li
 * Funções
 * Expressões Regulares
 
+**SCRIPTS**: [**Scripts - Parte II: Fundamentos**](#)
+
+**LISTA DE EXERCÍCIOS**: [**Lista de Exercícios - Parte II: Fatores, Estruturas de Controle e Funções**](#)
+
+**LISTA DE EXERCÍCIOS [RESOLVIDOS]**: [**Solução**](#)
+
 <br>
 
 **CURSO**: [**Big Data Analytics com R e Microsoft Azure Machine Learning, Versão 2.0**](https://www.datascienceacademy.com.br/course?courseid=analise-de-dados-com-r)
 
 **LINKEDIN**: [**Enzo Delcompare**](https://www.linkedin.com/in/enzodelcompare/)
 
-[enzodelcompare.github.io](https://enzodelcompare.github.io/)
+**MEU SITE**: [enzodelcompare.github.io](#)
