@@ -18,7 +18,7 @@ Com esse repositório, irei demostrar a construção do meu conhecimento na **Li
 
 **LISTA DE EXERCÍCIOS**: [**Lista de Exercícios - Parte I: Fundamentos**](https://github.com/enzodelcompare/r-language/blob/master/pt01/lista_exercicios.txt)
 
-**LISTA DE EXERCÍCIOS [RESOLVIDOS]**: [**Solução**](#)
+**LISTA DE EXERCÍCIOS [RESOLVIDOS]**: [**Solução**](https://github.com/enzodelcompare/r-language/blob/master/pt01/lista_exercicios-RESOLVIDO.txt)
 
 <br>
 
