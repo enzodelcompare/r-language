@@ -648,54 +648,54 @@ grepl(pattern = padrao, x = string_1)
 setwd("C:\r-language\pt01")
 getwd()
 
-# Criando um dataframe vazio
+# Criando dataframe vazio
 df <- data.frame()
 class(df)
 df
 
 # Criando vetores vazios
-nomes <- character()
-idades <- numeric()
-itens <- numeric()
-codigos <- integer()
+nome <- character()
+idade <- numeric()
+item <- numeric()
+codigo <- integer()
 
-df <- data.frame(c(nomes, idades, itens, codigos))
+df <- data.frame(c(nome, idade, iten, codigo))
 df
 
 # Criando vetores
 pais = c("Portugal", "Inglaterra", "Irlanda", "Egito", "Brasil")
-nome = c("Bruno", "Tiago", "Amanda", "Bianca", "Marta")
+nome = c("Bruno", "Thiago", "Amanda", "Bianca", "Marta")
 altura = c(1.88, 1.76, 1.53, 1.69, 1.68)
 codigo = c(5001, 2183, 4702, 7965, 8890)
 
-# Criando um dataframe de diversos vetores
-pesquisa = data.frame(pais, nome, altura, codigo)
-pesquisa
+# Criando dataframe com diversos vetores
+df_pesquisa = data.frame(pais, nome, altura, codigo)
+df_pesquisa
 
-# Adicionando um novo vetor a um dataframe existente
-olhos = c("verde", "azul", "azul", "castanho", "castanho")
-pesq = cbind(pesquisa, olhos)
-pesq
+# Adicionando novo vetor ao df_pesquisa
+cor_olho = c("verde", "azul", "azul", "castanho", "castanho")
+df_pesquisa_novo = cbind(df_pesquisa, cor_olho)
+df_pesquisa_novo
 
 # Informações sobre o dataframe
-str(pesq)
-dim(pesq)
-length(pesq)
+str(df_pesquisa_novo)
+dim(df_pesquisa_novo)
+length(df_pesquisa_novo)
 
-# Obtendo um vetor de um dataframe
-pesq$pais
-pesq$nome
+# Obtendo vetor de um dataframe
+df_pesquisa_novo$pais
+df_pesquisa_novo$nome
 
-# Extraindo um único valor
-pesq[1,1]
-pesq[3,2]
+# Extraindo valor único
+df_pesquisa_novo[1,1]
+df_pesquisa_novo[3,2]
 
-# Número de Linhas e Colunas
-nrow(pesq)
-ncol(pesq)
+# Quantidade de linhas e colunas
+nrow(df_pesquisa_novo)
+ncol(df_pesquisa_novo)
 
-# Primeiros elementos do dataframe
-head(pesq)
+# Primeiros elementos do df_pesquisa_novo
+head(df_pesquisa_novo)
 head(mtcars)
 
 # Últimos elementos do dataframe
