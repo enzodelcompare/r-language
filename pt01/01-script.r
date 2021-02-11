@@ -596,11 +596,11 @@ substr(string, start=12, stop=17)
 ?substr
 
 # Contando o número de caracteres
-nchar(texto)
+nchar(string)
 
-# Alterando a capitalização
-tolower("Histogramas e Elementos de Dados")
-toupper("Histogramas e Elementos de Dados")
+# Capitalização
+tolower("Ciência de Dados com Linguagem R")
+toupper("Ciência de Dados com Linguagem R")
 
 # Usando stringr
 library(stringr)
