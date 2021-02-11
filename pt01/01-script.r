@@ -659,7 +659,7 @@ idade <- numeric()
 item <- numeric()
 codigo <- integer()
 
-df <- data.frame(c(nome, idade, iten, codigo))
+df <- data.frame(c(nome, idade, item, codigo))
 df
 
 # Criando vetores
@@ -671,11 +671,13 @@ codigo = c(5001, 2183, 4702, 7965, 8890)
 # Criando dataframe com diversos vetores
 df_pesquisa = data.frame(pais, nome, altura, codigo)
 df_pesquisa
+View(df_pesquisa)
 
 # Adicionando novo vetor ao df_pesquisa
 cor_olho = c("verde", "azul", "azul", "castanho", "castanho")
 df_pesquisa_novo = cbind(df_pesquisa, cor_olho)
 df_pesquisa_novo
+View(df_pesquisa_novo)
 
 # Informações sobre o dataframe
 str(df_pesquisa_novo)
@@ -696,10 +698,11 @@ ncol(df_pesquisa_novo)
 
 # Primeiros elementos do df_pesquisa_novo
 head(df_pesquisa_novo)
+head(df_pesquisa_novo, 2)
 head(mtcars)
 
 # Últimos elementos do dataframe
-tail(pesq)
+tail(df_pesquisa_novo)
 tail(mtcars)
 
 # Data frames built-in do R
@@ -708,19 +711,19 @@ mtcars
 View(mtcars)
 
 # Filtro para um subset de dados que atendem a um critério
-pesq[altura < 1.60,]
-pesq[altura < 1.60, c('codigo', 'olhos')]
-pesq
+df_pesquisa_novo[altura < 1.60,]
+df_pesquisa_novo[altura < 1.60, c('codigo', 'nome')]
+df_pesquisa_novo
 
 # Dataframes Nomeados
-names(pesq) <- c("País", "Nome", "Altura", "Código", "Olhos")
-pesq
+names(df_pesquisa_novo) <- c("País", "Nome", "Altura", "Código", "Olhos")
+df_pesquisa_novo
 
-colnames(pesq) <- c("Var 1", "Var 2", "Var 3", "Var 4", "Var 5")
-rownames(pesq) <- c("Obs 1", "Obs 2", "Obs 3", "Obs 4", "Obs 5")
-pesq
+colnames(df_pesquisa_novo) <- c("VAR - PAÍS", "VAR - NOME", "VAR - ALTURA", "VAR - CÓDIGO", "VAR - COR DOS OLHOS")
+rownames(df_pesquisa_novo) <- c("REGISTRO 1", "REGISTRO 2", "REGISTRO 3", "REGISTRO 4", "REGISTRO 5")
+df_pesquisa_novo
 
-# Carregando um arquivo csv
+# Carregando um arquivo .csv
 ?read.csv
 pacientes <- data.frame(read.csv(file = 'pacientes.csv', header = TRUE, sep = ","))
 
@@ -738,5 +741,6 @@ pacientes$Status
 hist(pacientes$Idade)
 
 # Combinando dataframes
-dataset_final <- merge(pesq, pacientes)
+dataset_final <- merge(df_pesquisa_novo, pacientes)
 dataset_final
+View(dataset_final)
