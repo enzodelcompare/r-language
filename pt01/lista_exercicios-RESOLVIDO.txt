@@ -1,6 +1,6 @@
 # [LISTA DE EXERCÍCIOS]
 
-# NOTA: Nos exercícios com mais de uma solução, a solução fornecida por mim, haverá no início: minha_ ou meu_
+# NOTA: Nos exercícios com mais de uma solução, a fornecida por mim haverá no início: minha_ ou meu_
 
 # ---------- # ---------- # ---------- # ---------- # ---------- #
 
